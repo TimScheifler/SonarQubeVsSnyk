@@ -3,6 +3,8 @@ package com.example;
 import com.example.cyclic_dependency.c.C;
 import com.example.example.Mistakes;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.http.client.AsyncClientHttpRequestFactory;
+import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
 
 @SpringBootApplication
 public class Application {
@@ -11,6 +13,8 @@ public class Application {
 
     public static void main(String[] args) throws Exception {
         Mistakes mistakes = new Mistakes();
+
+        AsyncClientHttpRequestFactory deprecated = new OkHttp3ClientHttpRequestFactory();
 
         int x = mistakes.divideByZeroExample();
 
