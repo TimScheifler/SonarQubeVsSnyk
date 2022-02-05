@@ -76,7 +76,7 @@ public class Mistakes {
     public void integerOverflowExample() {
         int value = Integer.MAX_VALUE-1;
         for(int i = 0; i < 4; i++, value++) {
-            log.info(value+"");
+            log.info(String.valueOf(value));
         }
     }
 
