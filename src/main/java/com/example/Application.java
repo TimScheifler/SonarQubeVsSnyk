@@ -15,6 +15,7 @@ public class Application {
         Mistakes mistakes = new Mistakes();
 
         AsyncClientHttpRequestFactory deprecated = new OkHttp3ClientHttpRequestFactory();
+        deprecated.equals("Test");
 
         int x = mistakes.divideByZeroExample();
 
