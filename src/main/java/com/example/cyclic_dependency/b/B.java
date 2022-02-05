@@ -5,6 +5,6 @@ import com.example.cyclic_dependency.c.C;
 public class B {
 
     public B(){
-        C c = new C(0);
+        C c = new C(1);
     }
 }
