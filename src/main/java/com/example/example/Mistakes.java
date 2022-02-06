@@ -95,6 +95,10 @@ public class Mistakes {
         ResultSet rs = stat.executeQuery("SELECT * FROM USERS WHERE " + "NAME='" + name + "' AND PASSWORD='" + password + "'");
     }
 
+    public void deadCodeExample() {
+        System.out.println("this is never printed");
+    }
+
     public int namingConventionsExample(int example){
         int So_BeNeNnTMaN_DoCh_KeInEvArIaBlEn = example*2;
         return So_BeNeNnTMaN_DoCh_KeInEvArIaBlEn;
