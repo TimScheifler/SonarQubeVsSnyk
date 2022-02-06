@@ -1,6 +1,5 @@
 package com.example;
 
-import com.example.cyclic_dependency.c.C;
 import com.example.example.Mistakes;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.client.AsyncClientHttpRequestFactory;
@@ -35,6 +34,5 @@ public class Application {
 
         mistakes.sqlInjectionExample("USER",";DROP TABLE USERS");
 
-        C c = new C(9);
     }
 }
