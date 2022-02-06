@@ -47,6 +47,16 @@ public class Mistakes {
         log.info(""+s.length());
     }
 
+    public void dupliacateCode(String today) {
+        String s = null;
+        if (today.equals("monday"))
+            s = "Monday";
+        else if (today.equals("tuesday")) {
+            s = "Tuesday";
+        }
+        log.info(""+s.length());
+    }
+
 
     //FUNKTIONIERT
     public void unreachableStatement() {

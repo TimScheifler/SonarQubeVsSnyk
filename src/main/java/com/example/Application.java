@@ -21,6 +21,8 @@ public class Application {
 
         mistakes.nullPointerDereferenceExample("x");
 
+        mistakes.dupliacateCode("x");
+
         mistakes.unreachableStatement();
 
         mistakes.memoryLeakBecauseOfStaticFieldsExample();
