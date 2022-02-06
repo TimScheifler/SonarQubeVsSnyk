@@ -18,7 +18,7 @@
 | Veraltete Methoden                           | X        |      | X         | X         |        |         |
 | Schwachstellen von Abhängigkeiten            |          | X    |           |           |        |         |
 | Toter Code                                   | X        |      |           |           |        |         |
-| Doppelter Code                               | X        |      | X         | X         |        | #NAME?  |
+| Doppelter Code                               | X        |      | X         | X         |        |         |
 |                                              |          |      |           |           |        |         |
-|                                              | IntelliJ | Snyc | SonarQube | SonarLint | Codacy | Reshift |
-|                                              | 68%      | 26%  | 74%       | 47%       | 21%    | 5%      |
+|                                              |          |      |           |           |        |         |
+| Prozentuale Abdeckung                        | 68%      | 26%  | 74%       | 47%       | 21%    | 5%      |
