@@ -85,9 +85,12 @@ public class Mistakes {
 
     public void integerOverflowExample() {
         int value = Integer.MAX_VALUE-1;
-        for(int i = 0; i < 4; i++, value++) {
-            log.info(String.valueOf(value));
+        for(int i = 0; i < 4; i++, i++) {
+            value++;
         }
+        System.out.println(value);
+
+        int a = 4608 * 1024 * 1024;
     }
 
     public void indexOuOfBoundsExample() {
